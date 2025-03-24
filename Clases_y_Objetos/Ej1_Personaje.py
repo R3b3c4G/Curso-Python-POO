@@ -68,7 +68,7 @@ class Personaje:
         return f"Posición actual: (x, y) =  ({self.x},  {self.y}))"
 
 if __name__=="__main__":
-    "Función principal"
+    "Función principal."
     sonic = Personaje() # Crea una instancia del personaje.
     mis_ordenes = None
     while mis_ordenes!= "s" and mis_ordenes!= "S":
