@@ -72,7 +72,7 @@ if __name__=="__main__":
     sonic = Personaje() # Crea una instancia del personaje.
     mis_ordenes = None
     while mis_ordenes!= "s" and mis_ordenes!= "S":
-        mis_ordenes = input("Ingresa las oordenes de movimiento:  ").lower()
+        mis_ordenes = input("Ingresa las coordenadas de movimiento:  ").lower()
         sonic.moverse(mis_ordenes)
         sonic.posicion_actual()
     print("Fin del programa.")
