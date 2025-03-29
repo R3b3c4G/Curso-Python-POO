@@ -35,7 +35,7 @@ class Window:
         :param height: Altura de la ventana
         :param scoreboard: Instancia de Scoreboard.
         """
-        # scoreboard: Scoreboard = Scoreboard(): Variable, Clase, Objeto
+        # scoreboard: Scoreboard = Scoreboard(): Variable, Clase, Objeto.
         self._title = text
         self._width = width
         self._height = height
@@ -46,7 +46,7 @@ class Window:
         Llama al método draw del scoreboard para Dibuja el marcador de puntuación en la ventana.
         :return: No devuelve nada.
         """
-        self._scoreboard.draw() # Similar
+        self._scoreboard.draw()
 
     def update_score(self, points:int)-> None:
         """
