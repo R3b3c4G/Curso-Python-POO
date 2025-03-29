@@ -58,6 +58,7 @@ class Window:
         self._scoreboard.points = points
         self.draw_scoreboard()  # Es equivalente a self._scoreboard.draw().
 
+    # A continuación se hace el encapsulamiento de atributos que serán protegidos.
     # Método de acceso title
     @property
     def title(self)-> str:
