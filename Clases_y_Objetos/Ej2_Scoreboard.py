@@ -6,8 +6,8 @@ Se necesita desarrollar un sistema que permita gestionar y visualizar un scorebo
 En este programa contamos con una clase Scoreboard.
 
 1. Scoreboard:
-Debe almacenar y gestionar la puntuación actual,
-Debe permitir actualizar la posición,
+Debe almacenar y gestionar la puntuación actual.
+Debe permitir actualizar la posición.
 Debe ser capaz de dibujarse en pantalla con un formato específico.
 
 La lógica del scoreboard está encapsulada en una clase independiente.
