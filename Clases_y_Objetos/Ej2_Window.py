@@ -21,6 +21,7 @@ class Window:
         _width: Ancho de la ventana (protegido).
         _height: Alto de la ventana (protegido).
         _scoreboard: Instancia de Scoreboard asociada a la ventana (protegido).
+
     Métodos:
         __init__(): Constructor para inicializar la ventana con un scoreboard.
         Métodos de acceso: Permiten acceder y modificar los atributos.

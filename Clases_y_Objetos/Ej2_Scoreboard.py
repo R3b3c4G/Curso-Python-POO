@@ -22,11 +22,11 @@ class Scoreboard:
         _font: Especifica la fuente del texto (protegido).
         _size: Define el tamaño del texto (protegido).
 
-        Métodos:
-            __init__(): Constructor para inicializar el scoreboard.
-            Métodos de acceso: Permiten acceder y modificar los atributos.
-            draw(): Dibuja el scoreboard en la pantalla.
-            __str__(): Devuelve una representación en cadena del objeto.
+    Métodos:
+        __init__(): Constructor para inicializar el scoreboard.
+        Métodos de acceso: Permiten acceder y modificar los atributos.
+        draw(): Dibuja el scoreboard en la pantalla.
+        __str__(): Devuelve una representación en cadena del objeto.
     """
     def __init__(self, points:int=0, text_color:tuple[int,int,int]=(0,0,0), font:str="kimono", size:float=48):
         """
