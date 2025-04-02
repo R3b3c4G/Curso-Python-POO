@@ -1,6 +1,6 @@
 """
 Nombre: Rebeca Gregorio Espina.
-Fecha: 18 de marzo de 2025
+Fecha: 31 de marzo de 2025.
 Descripción:
     Los niños beben ponche.
     Los adolescentes beben Coca-Cola.
@@ -23,6 +23,11 @@ Ejemplos: (Entrada --> Salida)
 """
 
 def cadena_a_entero(cadena):
+    """
+     Función que convierte una cadena a entero.
+     :param cadena: Cadena a convertir.
+     :return int | None: Devuelve el entero convertido si es válido, None si el formato es incorrecto.
+     """
     no_guiones = cadena.count("-")
     revisar_cadena =cadena.lstrip('-')
 
@@ -31,7 +36,12 @@ def cadena_a_entero(cadena):
     else:
         return None
 
-def people_with_age_drink(age)-> str:
+def people_with_age_drink(age:int)-> str:
+    """
+    Función para determinar la bebida recomendada según la edad ingresada.
+    :param age: Edad del usuario.
+    :return: Devuelve una cadena de la bebida recomendada.
+    """
     if age < 14:
         return "drink toddy"
     elif 14 <= age < 18:
@@ -42,6 +52,10 @@ def people_with_age_drink(age)-> str:
         return "drink whisky"
 
 if __name__ == "__main__":
+    """
+    Función principal que pide una edad, lo validad y finalmente imprime el resultado 
+    de la bebida recomendada.
+    """
     cadena_edad = input("Ingresa tu edad: ")
     edad = cadena_a_entero(cadena_edad)
     while edad is None:

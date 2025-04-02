@@ -10,13 +10,13 @@ Por ejemplo:
     tiempo = 6.7---> litros = 3
     tiempo = 11.8--> litros = 5
 """
-def litres(tiempo:float)-> int:
+def litres(time:float)-> int:
     """
     Función para calcular el litro de agua a tomar.
-    :param tiempo: Tiempo en horas de ciclismo.
+    :param time: Tiempo en horas de ciclismo.
     :return: Regresa el litro de agua que debe consumir dependiendo del tiempo de ciclismo.
     """
-    return int(tiempo * 0.5)
+    return int(time * 0.5)
 
 
 def cadena_a_flotante(cadena:str)-> float|None:
@@ -34,6 +34,9 @@ def cadena_a_flotante(cadena:str)-> float|None:
         return None
 
 if __name__ == "__main__":
+    """
+    Función principal.
+    """
     cadena_tiempo = input("Ingresa el tiempo de ciclismo: ")
     tiempo = cadena_a_flotante(cadena_tiempo)
     while tiempo is None:

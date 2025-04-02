@@ -13,16 +13,22 @@ Ejemplos (entrada -> salida):
 Tus compañeros, agobiados, te piden una solución para eliminar todos los números de este texto ilegible. Tu programa tomará una cadena,
 eliminará todos los caracteres numéricos y devolverá una cadena con los espacios y caracteres especiales ~#$%^&!@*():;"'.,? intactos.
 """
-def string_clean(s)-> str:
+def string_clean(s:str)-> str:
+    """
+    Función que elimina todos los caracteres numéricos de una cadena.
+    :param s: Texto de entrada que mezclado con números.
+    :return: Devuelve una cadena sin números(1-9).
+    """
     s2 = ""
-    """
-    Function will return the cleaned string
-    """
     for caracter in s:
         if not caracter in "0123456789":
             s2 += caracter
     return s2
 
 if __name__ == "__main__":
+    """
+    Función que solicita una palabra, manda a quitar números y 
+    finalmente imprime una cadena limpia.
+    """
     palabra = input("Capturar palabra: ")
     print(palabra," --> ",string_clean(palabra))

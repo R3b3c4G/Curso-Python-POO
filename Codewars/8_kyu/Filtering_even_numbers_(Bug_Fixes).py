@@ -12,6 +12,7 @@ def kata_13_december(lst):
             lst.remove(i)
     return lst
 """
+
 def cadena_a_flotante(cadena:str)-> float|None:
     """
     Función que convierte una cadena de texto a un número flotante.
@@ -26,15 +27,15 @@ def cadena_a_flotante(cadena:str)-> float|None:
     else:
         return None
 
-def kata_13_december(lst):
+def kata_13_december(lst:list[float])-> list[float]:
     """
     Función que recibe una lista de números y retorna una nueva lista de números impares.
     :param lst: Lista de números (entero o flotante/par o impar).
     :return: Lista de números impares pertenecientes a la lista original.
     """
     impar_lst = []
-    for i in lst:
-        if i % 2 != 0:  # Si nos es par, el número se agrega a la lista impar.
+    for n in lst:
+        if n % 2 != 0:  # Si no es par, el número se agrega a la lista impar.
             impar_lst.append(i)
     return impar_lst
 
@@ -42,7 +43,7 @@ if __name__ == "__main__":
     """
     Función principal que pide una lista de 5 números, los valida y finalmente imprime cual de ellos es impar.
     """
-    lst = []
+    mi_lista = []
     print("Ingresa tu lista de números")
     for i in range (5):
         cadena_lst = input(f"[{i+1}].- ")
@@ -51,5 +52,5 @@ if __name__ == "__main__":
             print("Opción no válida, intenta nuevamente.")
             cadena_lst = input("Ingresa tu lista de números: ")
             lst_num = cadena_a_flotante(cadena_lst)
-        lst.append(lst_num)
-    print(kata_13_december(lst))
+        mi_lista.append(lst_num)
+    print(kata_13_december(mi_lista))

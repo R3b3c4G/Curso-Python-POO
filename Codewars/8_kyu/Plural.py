@@ -21,13 +21,21 @@ def cadena_a_flotante(cadena:str)-> float|None:
     else:
         return None
 
-def plural(n)-> bool:
+def plural(n:float)-> bool:
+    """
+    Función que determina si un número debería considerarse plural.
+    :param n: Número a evaluar.
+    :return: Devuelve True si el número es plural, False si es singular.
+    """
     if n != 1:
         return True
     else:
         return False
 
 if __name__ == "__main__":
+    """
+    Función principal.
+    """
     cadena_cantidad = input("Ingresa un número positivo: ")
     cantidad = cadena_a_flotante(cadena_cantidad)
     while cantidad is None or cantidad < 0:

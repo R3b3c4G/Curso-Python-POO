@@ -12,7 +12,12 @@ Debes devolver la cantidad de tostadas que necesitas para meter (o sacar). Si so
 Y por son 12 necesitas 6 tostadas menos (pero no -6):
 12 --> 6
 """
-def six_toast(num)-> int:
+def six_toast(num:int)-> int:
+    """
+    Función que calcula la diferencia entre el número de tostadas y el 6.
+    :param num: Número de tostadas ingresadas.
+    :return: Devuelve la diferencia con respecto a 6.
+    """
     if num < 6:
         return 6 - num
     elif num > 6:
@@ -21,6 +26,10 @@ def six_toast(num)-> int:
         return 0
 
 if __name__ == "__main__":
+    """
+    Función principal que permite ingresar tostadas, evalúa la diferencia y finalmente
+    imprime el resultado.
+    """
     space = input(" Presione espacio para ingresar tostadas y ENTER para finalizar: ")
     cont = 0
     for i in space:

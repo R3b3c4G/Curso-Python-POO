@@ -20,32 +20,39 @@ def cadena_a_flotante(cadena:str)-> float|None:
     else:
         return None
 
-def get_volume_of_cuboid(length, width, height)-> float:
-    if(length <= 0 or width <= 0 or height <= 0):
+def get_volume_of_cuboid(length:float, width:float, height:float)-> float:
+    """
+    Función que calcula el volumen de un cuboide rectangular.
+    :param length: Largo del cuboide.
+    :param width: Ancho del cuboide.
+    :param height: Altura del cuboide
+    :return: Devuelve el volumen del cuboide.
+    """
+    if length <= 0 or width <= 0 or height <= 0:
         return 0
     else:
         return length * width * height
 
 if __name__ == "__main__":
+    cadena_largo = input("Ingresa el largo del cuboide rectangular: ")
+    largo = cadena_a_flotante(cadena_largo)
+    while largo is None:
+        print("Opción no válida, intenta nuevamente.")
         cadena_largo = input("Ingresa el largo del cuboide rectangular: ")
         largo = cadena_a_flotante(cadena_largo)
-        while largo is None:
-            print("Opción no válida, intenta nuevamente.")
-            cadena_largo = input("Ingresa el largo del cuboide rectangular: ")
-            largo = cadena_a_flotante(cadena_largo)
 
+    cadena_ancho = input("Ingresa el ancho del cuboide rectangular: ")
+    ancho = cadena_a_flotante(cadena_ancho)
+    while ancho is None:
+        print("Opción no válida, intenta nuevamente.")
         cadena_ancho = input("Ingresa el ancho del cuboide rectangular: ")
         ancho = cadena_a_flotante(cadena_ancho)
-        while ancho is None:
-            print("Opción no válida, intenta nuevamente.")
-            cadena_ancho = input("Ingresa el ancho del cuboide rectangular: ")
-            ancho = cadena_a_flotante(cadena_ancho)
 
+    cadena_altura = input("Ingresa la altura del cuboide rectangular: ")
+    altura = cadena_a_flotante(cadena_altura)
+    while altura is None:
+        print("Opción no válida, intenta nuevamente.")
         cadena_altura = input("Ingresa la altura del cuboide rectangular: ")
         altura = cadena_a_flotante(cadena_altura)
-        while altura is None:
-            print("Opción no válida, intenta nuevamente.")
-            cadena_altura = input("Ingresa la altura del cuboide rectangular: ")
-            altura = cadena_a_flotante(cadena_altura)
-        volumen = get_volume_of_cuboid(largo, ancho, altura)
-        print(f"\nEl volumen del cuboide rectangular es: {volumen:.2f}")
+    volumen = get_volume_of_cuboid(largo, ancho, altura)
+    print(f"\nEl volumen del cuboide rectangular es: {volumen:.2f}")
