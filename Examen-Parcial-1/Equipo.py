@@ -1,6 +1,6 @@
 """
 Nombre: Rebeca Gregorio Espina.
-Fecha: 3 de marzo de 2025
+Fecha: 3 de abril de 2025
 Descripión:
 Se desea desarrollar un sistema en Python para gestionar un torneo de fútbol en el que participan
 varios equipos, y cada equipo está compuesto por jugadores.

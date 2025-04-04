@@ -1,6 +1,6 @@
 """
 Nombre: Rebeca Gregorio Espina.
-Fecha: 3 de marzo de 2025
+Fecha: 3 de abril de 2025.
 Descripión:
 Se desea desarrollar un sistema en Python para gestionar un torneo de fútbol en el que participan
 varios equipos, y cada equipo está compuesto por jugadores.
@@ -89,7 +89,7 @@ class Torneo:
     def mostrar_equipos(self)-> None:
         """
         Muestra en pantalla la lista de equipos participantes en el torneo.
-        :return: No dvuelve nada.
+        :return: No devuelve nada.
         """
         print(f"Equipos: {self._nombre}:")
         for equipo in self._equipos:
@@ -105,10 +105,10 @@ class Torneo:
             print("Equipos insuficientes")
         else:
             if len(self._equipos) % 2 != 0:
-                print("El número de equipos debe ser par")
+                print("El número de equipos debe ser par, así que se agregará un extra.")
                 self.agregar_equipos("Extra")
-                print("Se agrego un equipo extra.")
-            print("Crean rol...")
+                print("Se agregó un equipo extra.")
+            print("Creando rol...")
             mitad = len(self._equipos) // 2
             equipos_a = []
             equipos_b = []
