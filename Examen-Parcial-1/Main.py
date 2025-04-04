@@ -133,9 +133,9 @@ while True:
                     equipos[num_equipo].agregar_jugadores(jugador_seleccionado)
                     print(f"Jugador {jugador_seleccionado.nombre} agregado a {equipos[num_equipo].nombre}.")
                 else:
-                    print("Selección de equipo inválida.")
+                    print("Opción no válido.")
             else:
-                print("Selección de jugador inválida.")
+                print("Opción no válido.")
 # Los equipos pueden agregar o remover jugadores, ya sea individualmente o en grupos.
     elif opcion == "6":
         print("-- Eliminar jugadores de un equipo --")
@@ -164,9 +164,9 @@ while True:
                         equipo_seleccionado.remover_jugadores(equipo_seleccionado.jugadores[num_jugador])
                         print("Jugador eliminado del equipo.")
                     else:
-                        print("Selección inválida.")
+                        print("Opción no válido.")
             else:
-                print("Selección inválida.")
+                print("Opción no válido.")
 # Los torneos pueden agregar o remover equipos, ya sea individualmente o en grupos.
     elif opcion == "7":
         print("-- Agregar equipos al torneo --")
@@ -187,7 +187,7 @@ while True:
                 for equipo in torneo.equipos:
                     if equipo.nombre == nombre_equipo:
                         torneo.eliminar_equipo(equipo)
-                        print("Se elimino correctamente.")
+                        print("Se eliminó correctamente.")
 
                 nombre_equipo = input("Nombre del equipo a eliminar del torneo o 'ENTER' para salir: ")
         else:
