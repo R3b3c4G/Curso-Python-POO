@@ -18,7 +18,7 @@ def count_zeros(x:int) -> int:
     :return: Cantidad de ceros que aparecen entre 1 y N.
     """
     contador = 0
-    for num in range(1, x + 1):   # Iterar sobre los elementos de n.
+    for num in range(1, x + 1):   # Iterar sobre los elementos de x.
         for digito in str(num): # Revisar cada dígito.
             if digito == "0":
                 contador += 1
