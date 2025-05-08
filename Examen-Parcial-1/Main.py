@@ -183,7 +183,7 @@ while True:
             torneo.mostrar_equipos()
             nombre_equipo = input("Ingrese el nombre del equipo que desea eliminar del torneo o enter para salir: ")
 
-            while bool(nombre_equipo):
+            while nombre_equipo:
                 for equipo in torneo.equipos:
                     if equipo.nombre == nombre_equipo:
                         torneo.eliminar_equipo(equipo)
