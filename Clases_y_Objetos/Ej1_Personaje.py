@@ -1,7 +1,7 @@
 """
 Nombre: Rebeca Gregorio Espina.
 Fecha: 12 de marzo de 2025
-Descripión:
+Descripción:
 Crea una clase llamada Personaje que simule los movimientos de un personaje de videojuegos en una ventana.
 1. El personaje se moverá por una ventana de tamaño máximo (x, y) = (10, 10) y podrá realizar los siguientes movimientos si no supera el límite de la ventaja:
       * Avanzar (caracteres 'A' o 'a'): aumenta en 1 la posición en y,
