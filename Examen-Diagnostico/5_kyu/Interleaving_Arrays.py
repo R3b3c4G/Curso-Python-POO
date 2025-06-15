@@ -1,4 +1,7 @@
 """
+Nombre: Rebeca Gregorio Espina.
+Fecha: 9 de mayo del 2025.
+Descripción:
 Crea una función que acepte un número arbitrario de arrays y devuelva un único array generado añadiendo elementos de los argumentos pasados. Si uno de ellos es más corto que los demás, el resultado debe rellenarse con elementos vacíos.
 
 Ejemplos:
