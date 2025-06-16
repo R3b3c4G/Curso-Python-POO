@@ -1,5 +1,5 @@
 # **Ejercicios resueltos de Codewars**
-Este directorio contiene la documentación de diversas katas de la plataforma Codewars que fueron resueltas
+Este directorio contiene la documentación de diversas katas de la plataforma [Codewars](https://www.codewars.com/) que fueron resueltas
 a lo largo del curso de paradigmas de programación.
 
 ## Estructura del directorio Codewars
@@ -31,9 +31,6 @@ los ejercicios por nivel.
 
 </details>
 
-###
-###
-###
 
 ## Estructura de los subdirectorios
 Cada subdirectorio está organizado por nivel de dificultad y contiene archivos.py con la
