@@ -61,7 +61,7 @@ solución de cada kata con su respectiva función, pruebas y documentación.
     - `Split_Strings.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P2/6_kyu/Split_Strings.py
     
     ### `7_kyu`
-    #### Contenido
+    ### Contenido
     - `Count_number_of_zeros_from_1_to_N.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P2/7_kyu/Count_number_of_zeros_from_1_to_N.py
     - `More_than_Zero.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P2/7_kyu/More_than_Zero.py
     - `Regex_validate_PIN_code.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P2/7_kyu/Regex_validate_PIN_code.py
