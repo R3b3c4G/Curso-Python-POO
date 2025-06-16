@@ -32,7 +32,7 @@ los ejercicios por nivel.
 </details>
 
 
-### Estructura de los subdirectorios
+## Estructura de los subdirectorios
 Cada subdirectorio está organizado por nivel de dificultad y contiene archivos.py con la
 solución de cada kata con su respectiva función, pruebas y documentación.
 - ### Estructura de P1 (Katas del parcial 1)
