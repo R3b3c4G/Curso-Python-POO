@@ -31,8 +31,9 @@ los ejercicios por nivel.
 
 </details>
 
-
-
+#
+#
+#
 
 ## Estructura de los subdirectorios
 Cada subdirectorio está organizado por nivel de dificultad y contiene archivos.py con la
