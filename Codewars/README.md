@@ -31,6 +31,13 @@ los ejercicios por nivel.
 
 </details>
 
+<details>
+<summary>📕 Ordinario</summary>
+
+- [6_kyu](https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/Ordinario/6_kyu)
+
+</details>
+
 
 ## Estructura de los subdirectorios
 Cada subdirectorio está organizado por nivel de dificultad y contiene archivos.py con la
@@ -96,6 +103,13 @@ solución de cada kata con su respectiva función, pruebas y documentación.
     - `Number-Star_ladder.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P3/7_kyu/Number-Star_ladder.py
     - `Number_of_Decimal_Digits.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P3/7_kyu/Number_of_Decimal_Digits.py
     - `The_old_switcheroo_2.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/P3/7_kyu/The_old_switcheroo_2.py
+
+  
+- ### Estructura de Ordinario (Katas del Ordinario)
+    ### `6_kyu`
+    ### Contenido
+    - `Multiples_of_3_or_5.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/Ordinario/6_kyu/Multiples_of_3_or_5.py
+    - `The_Vowel_Code.py` - https://github.com/R3b3c4G/Curso-Python-POO/blob/main/Codewars/Ordinario/6_kyu/The_Vowel_Code.py
 
 
 ## 👩‍💻 Elaboró:
