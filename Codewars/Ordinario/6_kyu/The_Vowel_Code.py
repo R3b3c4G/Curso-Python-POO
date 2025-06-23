@@ -61,7 +61,7 @@ def decode(st):
     return numero
 
 if __name__ == "__main__":
-    # Función principal para probar la encode() y decode().
+    # Función principal para probar las funciones encode() y decode().
     print(f"decode(): hello --> {encode("hello")}")
     print(f"encode(): h3 th2r2 --> {decode("h3 th2r2")}")
 
