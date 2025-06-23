@@ -115,6 +115,10 @@ solución de cada kata con su respectiva función, pruebas y documentación.
 ## 👩‍💻 Elaboró:
 **Rebeca Gregorio Espina**
 
+## 🌐 Perfil de Codewars
+[R3b3c4G](https://www.codewars.com/users/R3b3c4G)
+
+
 
 
 
